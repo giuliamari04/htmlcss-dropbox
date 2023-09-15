@@ -24,6 +24,7 @@
 
 body{
 	font-family: 'Noto Sans JP', sans-serif;
+	
 }
 .container-header{
 	min-width: 1500px;
@@ -43,17 +44,42 @@ a{
 	color: inherit;
 }
 
+i{
+	padding: 5px;
+}
 .botton-blu{
 	background-color: #0061ff;
 	color: var(--color-bg-main);
 	padding: 10px;
+	text-align: center;
+	margin: 20px;
 }
 /* flex */
 
 .d-flex {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    flex-flow: row wrap;    
+}
+
+.r-flex{
+	display: flex;
+	flex-direction: row;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px; 
+	padding:30px 0;
+  }
+
+  .grid-container div{
+	padding: 5px ;
+  }
+  
+.column{
+	display: flex;
+	flex-direction: column;
 }
 
 .center{
@@ -76,6 +102,7 @@ nav{
 	background-color: var(--color-bg-main);
 	height: 70px;
 	text-align: center;
+	justify-content: space-between;
 	position: fixed;
     top: 0;
     left: 0;
@@ -128,6 +155,27 @@ nav{
 	width: 590px;
 
 }
+/* main */
+
+/* sezione 1 */
+
+.link{
+	text-decoration: underline;
+	color: var(--color-bg-bottom);
+}
+.bordi-box{
+	border: 1px solid var(--color-testo-grigio);
+}
+
+.bordi-box > div:first-child{
+	border-bottom: 1px solid var(--color-testo-grigio);
+	text-align: center;
+}
+
+.check{
+	padding: 20px;
+}
+
 .debug{
 	border:2px solid #0061ff;
 }
