@@ -33,6 +33,8 @@ body{
 .container-main{
 	min-width: 1200px;
 	padding: 0 20%;
+	margin-top: 20vh;
+
 }
 
 ul{
@@ -52,7 +54,10 @@ i{
 	color: var(--color-bg-main);
 	padding: 10px;
 	text-align: center;
-	margin: 20px;
+}
+
+.titolisection{
+	font-size: 2em;
 }
 /* flex */
 
@@ -89,6 +94,10 @@ i{
 	align-content: center;
 }
 
+.padding-30px{
+	padding: 30px;
+}
+
 /* header */
 
 #header{
@@ -115,7 +124,7 @@ nav{
 }
 
 .testo-nav li{
-	padding: 20px;
+	padding: 30px;
 }
 
 /* hero */
@@ -139,7 +148,7 @@ nav{
 }
 
 .div-testo-hero> div:first-child{
-	padding:40px 0;
+	padding:30px 0;
 }
 .freccia{
 	position: absolute;
@@ -172,8 +181,55 @@ nav{
 	text-align: center;
 }
 
-.check{
-	padding: 20px;
+.bordi-box> div{
+	margin: 10px;
+}
+
+.enterprice{
+	width: 600px;
+	text-align: left;
+	font-size: 0.9em;
+}
+
+
+/* sezione 2 */
+.img-section2{
+	background-image: url(../img/partner.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 200%;
+}
+.div-section2{
+	height:55vh;
+}
+
+.bottone-grigio{
+	color: var(--color-testo-grigio);
+	padding: 10px;
+	text-align: center;
+	border: 1px solid var(--color-testo-grigio);
+}
+
+/* sezione3 */
+
+.container-sezione3{
+	
+}
+
+.box-sezione3{
+	width: calc(100% / 3 - 10px);
+	margin-left: 5px;
+	padding:20px 20px 20px 0;
+}
+
+.img-section3{
+	width: 100%;
+}
+
+/* sezione4 */
+
+.div-sezione4{
+	width: 60%;
 }
 
 .debug{
