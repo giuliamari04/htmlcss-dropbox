@@ -311,6 +311,25 @@ div.cubotto :first-child{
 	right: 0;
 	background-color: var(--color-box-8);	
 }
+
+/* fascia azzurra */
+.fascia-azzurra{
+	background-color: var(--color-box-4);
+	min-width: 1200px;
+	padding:5% 20%;
+}
+
+.titolo-fascia-azz{
+	color:#61082b;
+	width: 50%;
+}
+
+.bottone-bianco{
+	background-color: var(--color-bg-main);
+	padding: 10px 20px;
+	margin-left: 100px;
+}
+
 .debug{
 	border:2px solid #0061ff;
 }
