@@ -59,6 +59,10 @@ i{
 	text-align: center;
 }
 
+hr{
+	width: 20%;
+	color: var(--color-testo-grigio);
+}
 .titolisection{
 	font-size: 2em;
 }
