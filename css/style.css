@@ -24,10 +24,10 @@
 
 body{
 	font-family: 'Noto Sans JP', sans-serif;
+	min-width: 1200px;
 	
 }
 .container-header{
-	min-width: 1500px;
 	padding: 3% 20%;
 }
 .container-main{
@@ -247,6 +247,10 @@ nav{
 div.cubotto :first-child{
 	filter: invert(1);
 	width: 50%;
+}
+
+.p{
+	overflow-y: auto;
 }
 /* cubi a sinistra */
 .cubotto-top-left{
