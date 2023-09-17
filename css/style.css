@@ -330,6 +330,36 @@ div.cubotto :first-child{
 	margin-left: 100px;
 }
 
+/* lista domande */
+
+.list-domande{
+	border-top: 1px solid var(--color-testo-grigio);
+	border-bottom: 1px solid var(--color-testo-grigio);
+	display: flex;
+	justify-content: space-between;
+}
+
+.margin-bottom{
+	margin-bottom: 20vh;
+}
+
+/* footer */
+
+footer{
+	background-color: var(--color-bg-footer);
+	color: var(--color-bg-main);
+	padding: 2% 16%;
+}
+
+.div-footer{
+	padding: 10% 0;
+}
+
+div.div-footer>ul{
+	padding: 0 20px;
+	line-height: 2;
+}
+
 .debug{
 	border:2px solid #0061ff;
 }
