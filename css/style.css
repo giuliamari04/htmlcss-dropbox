@@ -34,7 +34,10 @@ body{
 	min-width: 1200px;
 	padding: 0 20%;
 	margin-top: 20vh;
+}
 
+.container-main-largo{
+	margin-top: 20vh;
 }
 
 ul{
@@ -212,10 +215,6 @@ nav{
 
 /* sezione3 */
 
-.container-sezione3{
-	
-}
-
 .box-sezione3{
 	width: calc(100% / 3 - 10px);
 	margin-left: 5px;
@@ -232,6 +231,86 @@ nav{
 	width: 60%;
 }
 
+/* div cubotti */
+.container-cubi{
+	position: relative;
+	width:calc(100%/3);
+	height:calc(100vw/3);
+	margin-top: 20vh;
+}
+
+.cubotto{
+	width: 50%;
+	height:50%;
+}
+
+div.cubotto :first-child{
+	filter: invert(1);
+	width: 50%;
+}
+/* cubi a sinistra */
+.cubotto-top-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--color-box-1);
+	border: 10px solid #d1e9cd ;
+}
+
+.cubotto-top-right{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: var(--color-box-2);	
+}
+
+.cubotto-bot-left{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: var(--color-box-5);	
+}
+
+.cubotto-bot-right{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: var(--color-box-6);	
+}
+
+/* sezione centrale */
+.logo-central{
+	width: 200px;
+}
+/* cubi a destra */
+.cubotto-top-left2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: var(--color-box-3);
+	
+}
+
+.cubotto-top-right2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: var(--color-box-4);	
+}
+
+.cubotto-bot-left2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: var(--color-box-7);	
+}
+
+.cubotto-bot-right2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: var(--color-box-8);	
+}
 .debug{
 	border:2px solid #0061ff;
 }
