@@ -220,6 +220,7 @@ label{
 	gap: 10px;
 	height: 90vh;
 	margin-bottom: 10vh;
+	justify-content: space-between;
 }
 
 .container-colonne> div{
@@ -227,7 +228,18 @@ label{
 	align-items: stretch;
 	align-content: stretch;
 	width: calc(100%/3);
-	line-height: 2;
+
+}
+.list-icon{
+	text-indent: -0.8em;
+	padding: 10px 20px 20px;
+}
+
+
+
+.margin-top-bot{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 /* sezione 2 */
@@ -388,16 +400,20 @@ footer{
 	background-color: var(--color-bg-footer);
 	color: var(--color-bg-main);
 	padding: 2% 16%;
+	
 }
 
 .div-footer{
 	padding: 10% 0;
+	display: flex;
+	justify-content: space-between;
 }
 
 div.div-footer>ul{
 	padding: 0 20px;
 	line-height: 2;
 }
+
 
 .debug{
 	border:2px solid #0061ff;
