@@ -152,14 +152,14 @@ nav{
 /* hero */
 .hero{
 	background-color: var(--color-bg-hero);
-	height: 80vh;
+	height: 70vh;
 	position:relative;
 	
 }
 
 .div-hero{
 	position: absolute;
-	top: 22vh;
+	top: 15vh;
 	right:20%;
 	left: 20%;
 }
@@ -219,7 +219,7 @@ label{
 .container-colonne{
 	gap: 10px;
 	height: 90vh;
-	margin-bottom: 20vh;
+	margin-bottom: 10vh;
 }
 
 .container-colonne> div{
