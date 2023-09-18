@@ -23,15 +23,16 @@
 }
 
 body{
-	font-family: 'Noto Sans JP', sans-serif;
-	min-width: 1200px;
-	
+	font-family: 'Noto Sans JP', sans-serif;	
 }
+
 .container-header{
 	padding: 3% 20%;
 }
+
 .container-main{
 	min-width: 1200px;
+	margin: 0 auto;
 	padding: 0 20%;
 	margin-top: 20vh;
 }
@@ -49,13 +50,16 @@ a{
 	color: inherit;
 }
 
+a:hover{
+	text-decoration: underline;
+}
 i{
 	padding: 5px;
 }
 .botton-blu{
 	background-color: #0061ff;
 	color: var(--color-bg-main);
-	padding: 10px;
+	padding: 6px 10px;
 	text-align: center;
 }
 
@@ -83,6 +87,7 @@ hr{
 	grid-template-columns: repeat(3, 1fr);
 	gap: 10px; 
 	padding:30px 0;
+	;
   }
 
   .grid-container div{
@@ -112,6 +117,7 @@ hr{
 	position: relative;
 	margin-top: 10vh;
 	margin-bottom:10vh ;
+	box-shadow: 1px 3px 3px lightgray;
 }
 
 nav{
@@ -138,6 +144,15 @@ nav{
 .hero{
 	background-color: var(--color-bg-hero);
 	height: 80vh;
+	position:relative;
+	
+}
+
+.div-hero{
+	position: absolute;
+	top: 22vh;
+	right:20%;
+	left: 20%;
 }
 .titolo-hero{
 	font-size: 3.8em;
@@ -149,26 +164,18 @@ nav{
 }
 
 .div-testo-hero{
-	width: 350px;
+	width: 40%;
 	padding: 30px 20px;
 	font-size: 0.8em;
 }
 
-.div-testo-hero> div:first-child{
-	padding:30px 0;
-}
 .freccia{
-	position: absolute;
-	bottom: 2%;
-	left: 22%;
-	font-size: large;
-
+	font-size: 2em;
 }
+
 .div-img-hero{
-	position: absolute;
-	bottom: -10%;
-	right: 15%;
-	width: 590px;
+	width: 60%;
+	padding: 30px 0;
 
 }
 /* main */
