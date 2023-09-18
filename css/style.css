@@ -25,11 +25,16 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	font-family: 'Noto Sans JP', sans-serif;	
+	font-family: 'Noto Sans JP', sans-serif;
+	min-width: 1200px;
+		
+	
 }
 
 .container-header{
 	padding: 3% 20%;
+	
+	
 }
 
 .container-main{
@@ -191,7 +196,7 @@ nav{
 .hero{
 	background-color: var(--color-bg-hero);
 	min-height: 80vh;
-	
+
 }
 
 .div-hero{
@@ -256,6 +261,7 @@ label{
 	gap: 10px;
 	min-height: 90vh;
 	margin-bottom: 10vh;
+	min-width: none;
 	justify-content: space-between;
 }
 
@@ -263,7 +269,7 @@ label{
 	display: flex;
 	align-items: stretch;
 	align-content: stretch;
-	width: calc(100%/3);
+	width:calc(100%/ 3 - 10px);
 
 }
 .list-icon{
