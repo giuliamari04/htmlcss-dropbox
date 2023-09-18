@@ -65,6 +65,10 @@ a{
 	box-shadow: 2px 3px 3px var(--color-bg-hero);
 	border: 1px solid var(--color-bg-bottom);
 }
+
+div.div-footer ul li a:hover{
+	text-decoration: underline;
+}
 i{
 	padding: 5px;
 }
@@ -490,10 +494,45 @@ div.div-footer>ul{
 	
 }
 
-#main-accedi{
+.main-accedi{
 	height: 79vh;
 }
 
+.left{
+	justify-content: left;
+}
+.container-main-accedi{
+	width: 25%;
+	padding: 20px;
+}
+.main-accedi div{
+	padding: 2px;
+
+}
+
+input[type="email"] {
+	width:100%;
+	padding: 10px;
+	border: 3px solid var(--color-bg-bottom);	
+  }
+.bordi-accedi{
+	border: 2px solid lightgray;
+	margin-top: 30px;
+	margin-bottom: 20px;
+} 
+.padding-l{
+	padding-left: 70px;
+}
+
+.bordi-accedi:hover{
+	border: 1px solid black;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.registrati :hover{
+	text-decoration: underline;
+	color: #0061ff;
+}
 .debug{
 	border:2px solid #0061ff;
 }
