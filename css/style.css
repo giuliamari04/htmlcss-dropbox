@@ -21,7 +21,9 @@
 	--color-box-big: #f5f5f5;
 	--color-testo-grigio:#727372;
 }
-
+a{
+	cursor: pointer;
+}
 ::-webkit-scrollbar {
 	width: 20px;
   }
@@ -131,7 +133,7 @@ hr{
   .dropdown-content {
 	display: none;
 	position: absolute;
-	min-width: max-content;
+	min-width:max-content;
 	left: 0;
 	margin-top: 24px;
 	background-color: var(--color-bg-main);
@@ -227,8 +229,8 @@ nav{
 	color: var(--color-testo-grigio);
 }
 
-.testo-nav li{
-	padding: 25px;
+.testo-nav li.dropdown{
+	padding:25px;
 	text-align: left;
 }
 
@@ -583,8 +585,6 @@ div.div-footer>ul{
 }
 .main-accedi div{
 	padding: 2px;
-	
-
 }
 
 input[type="email"] {
@@ -619,6 +619,11 @@ input[type="email"] {
 	width: 20px;
 	height: 20px;
 }
+
+.padding-15px{
+	padding: 15px;
+}
+
 
 /* effetto accordion */
 
