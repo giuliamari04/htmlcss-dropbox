@@ -32,7 +32,7 @@ body{
 }
 
 .container-header{
-	padding: 3% 20%;
+	padding: 3% 10%;
 	
 	
 }
@@ -64,6 +64,18 @@ a{
 	background-color: #4383ea;
 	box-shadow: 2px 3px 3px var(--color-bg-hero);
 	border: 1px solid var(--color-bg-bottom);
+}
+
+.bottone-bianco:hover{
+	border: 2px solid black;
+	box-shadow: 2px 3px 3px var(--color-testo-grigio);
+	text-shadow: 2px 3px 3px var(--color-testo-grigio);
+}
+
+.bottone-grigio:hover{
+	border: 2px solid black;
+	box-shadow: 2px 3px 3px var(--color-testo-grigio);
+	
 }
 
 div.div-footer ul li a:hover{
@@ -337,7 +349,22 @@ label{
 .div-sezione4{
 	width: 60%;
 }
-
+.pippo{
+--color-bg-hero: #b8d1e5;
+	--color-bg-footer: #000000;
+	--color-bg-main: #ffffff;
+	--color-box-8: #ffd830;
+	--color-box-7: #0d2481;
+	--color-box-6: #ff1c1c;
+	--color-box-5: #0093ce;
+	--color-box-4: #b4d0e7;
+	--color-box-3: #d5001f;
+	--color-box-2: #61082b;
+	--color-box-1: #a2d39b;
+	--color-bg-bottom: #0061ff;
+	--color-box-big: #f5f5f5;
+	--color-testo-grigio:#727372;
+}
 /* div cubotti */
 .container-cubi{
 	position: relative;
@@ -377,6 +404,10 @@ div.cubotto :first-child{
 	border: 10px solid #d1e9cd ;
 }
 
+.cubotto-top-left:hover{
+	background-color: #bbdcb6;
+}
+
 .cubotto-top-right{
 	position: absolute;
 	top: 0;
@@ -384,11 +415,19 @@ div.cubotto :first-child{
 	background-color: var(--color-box-2);	
 }
 
+.cubotto-top-right:hover{
+	background-color: #8d0d40;
+}
+
 .cubotto-bot-left{
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-color: var(--color-box-5);	
+	background-color:var(--color-box-5);	
+}
+
+.cubotto-bot-left:hover{
+	background-color: #01a8ea;
 }
 
 .cubotto-bot-right{
@@ -396,6 +435,9 @@ div.cubotto :first-child{
 	bottom: 0;
 	right: 0;
 	background-color: var(--color-box-6);	
+}
+.cubotto-bot-right:hover{
+	background-color: #fe4848;
 }
 
 /* sezione centrale */
@@ -411,6 +453,10 @@ div.cubotto :first-child{
 	
 }
 
+.cubotto-top-left2:hover{
+	background-color:#f2314e;
+}
+
 .cubotto-top-right2{
 	position: absolute;
 	top: 0;
@@ -418,6 +464,9 @@ div.cubotto :first-child{
 	background-color: var(--color-box-4);	
 }
 
+.cubotto-top-right2:hover{
+	background-color:  #c6e5ff;
+}
 .cubotto-bot-left2{
 	position: absolute;
 	bottom: 0;
@@ -425,11 +474,18 @@ div.cubotto :first-child{
 	background-color: var(--color-box-7);	
 }
 
+.cubotto-bot-left2:hover{
+	background-color:  #1434b3;
+}
 .cubotto-bot-right2{
 	position: absolute;
 	bottom: 0;
 	right: 0;
 	background-color: var(--color-box-8);	
+}
+
+.cubotto-bot-right2:hover{
+	background-color:  #f5e18b;
 }
 
 /* fascia azzurra */
@@ -438,6 +494,7 @@ div.cubotto :first-child{
 	min-width: 1200px;
 	padding:5% 20%;
 }
+
 
 .titolo-fascia-azz{
 	color:#61082b;
