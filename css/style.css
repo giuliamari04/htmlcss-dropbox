@@ -196,6 +196,7 @@ nav{
     left: 0;
     width: 100%;
     z-index: 1000;
+	box-shadow: 1px 2px 2px var(--color-bg-bottom);
 
 }
 .testo-nav{
@@ -236,7 +237,7 @@ nav{
 .div-testo-hero{
 	width: 40%;
 	padding: 30px 20px;
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 .freccia{
@@ -584,7 +585,7 @@ input[type="email"] {
 	margin-bottom: 20px;
 } 
 .padding-l{
-	padding-left: 70px;
+	padding-left: 75px;
 }
 
 .bordi-accedi:hover{
